@@ -1,0 +1,386 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>examples</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Interface Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="{% static 'myapp/css/bootstrap.css' %}" type="text/css" rel="stylesheet" media="all">
+    <link href="{% static 'myapp/css/style.css' %}" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+    <link href="{% static 'myapp/css/font-awesome.min.css' %}" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- banner -->
+    <div class="inner-banner">
+        <!-- header -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-fixed-top">
+            <div class="container">
+                <h1 class="wthree-logo">
+                    <a href="{% url 'index' %}" id="logoLink" data-blast="color">Learn and Test </a>
+                </h1>
+                <div class="nav-sec  position-relative">
+                    <a href="#menu" id="toggle">
+                        <span></span>
+                    </a>
+                    <div id="menu">
+                        <ul>
+                            <li><a href="{% url 'index' %}">Home</a></li>
+                            <li><a href="{% url 'assign' %}">assignments</a></li>
+                            <li><a href="{% url 'syllabus' %}">Syllabus</a></li>
+                            <li  class="active"><a href="{% url 'examples' %}">examples</a></li>
+                            <li><a href="{% url 'contact' %}">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- //header -->
+        <!-- banner -->
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center">
+                <h5 class="in-title">examples</h5>
+            </div>
+        </div>
+    </div>
+    <!-- //banner -->
+    <!-- single -->
+    <div class="single-w3l py-5">
+        <div class="container py-lg-5">
+            <div class="title-sec-agile text-center">
+                <span class="title-icon-wthree fa fa-hourglass-o" aria-hidden="true"></span>
+                <h3 class="agile-head">Creative Solutions</h3>
+                <p class="title-text">add some text here</p>
+            </div>
+            <div class="row inner_sec_info pt-md-5">
+                <!-- left side -->
+                <div class="col-lg-10 single-left mx-auto">
+                    <div class="single-left1">
+                        <h5 class="card-title">
+                            <a href="{% url 'assign' %}" class="text-dark">Sed ut perspiciatis unde omnis iste natus
+                                error sit
+                                facilisis erat posuere eratefg</a>
+                        </h5>
+                        <img src="{% static 'myapp/images/a1.jpg' %}" alt=" " class="img-fluid" />
+
+                        <p>In consectetur, elit in scelerisque malesuada, tellus leo viverra massa, nec
+                            malesuada
+                            turpis lectus
+                            ac urna. Suspendisse ut neque orci. Phasellus tellus diam, pulvinar sit amet elit
+                            sit amet,
+                            fermentum
+                            viverra eros. Praesent neque purus, rhoncus nec nibh non, mollis sodales odio.
+                            Nullam
+                            facilisis
+                            diam non magna porta luctus. Aenean facilisis erat posuere erat ornare ultrices.
+                            Aliquam ac
+                            arcu
+                            interdum, dapibus nibh convallis, semper augue.
+                            <i class="my-3 font-weight-bold">Nunc a urna turpis. Aenean vestibulum elementum
+                                nisi.
+                                Aenean aliquet nec mi et lacinia. Aliquam
+                                maximus iaculis mi elit in scelerisque malesuada, tellus leo viverra massa, sed
+                                efficitur
+                                orci efficitur nec.</i> In consectetur, elit in scelerisque malesuada, tellus
+                            leo
+                            viverra
+                            massa, nec malesuada turpis lectus ac urna. Suspendisse ut neque orci. Phasellus
+                            tellus
+                            diam,
+                            pulvinar sit amet elit sit amet, fermentum viverra eros. Praesent neque purus,
+                            rhoncus nec
+                            nibh
+                            non, mollis sodales odio.</p>
+                    </div>
+                    <div class="admin p-4 my-4">
+                        <p>
+                            <i class="fa fa-quote-left mr-2"></i>nibh eu consequat magna ipsum ac ex. Nulla
+                            iaculis
+                            tincidunt elit, tortor luctus sit amet.
+                            Morbi in porta dolor. Morbi eget dui elit. consequat magna ipsum ac ex, Nulla
+                            iaculis
+                            consequat
+                            magna ipsum ac ex Nulla iaculis.
+                            <i class="fa fa-quote-right ml-2"></i>
+                        </p>
+                        <a href="#" class="mt-3 font-weight-bold text-right blockquote-footer">James Doe</a>
+                    </div>
+                    <div class="row single-left2">
+                        <div class="col-lg-4 single-left2-left">
+                            <ul>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="{%url 'examples' %}">At vero eos et accusamus iusto</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="{%url 'examples' %}">Sed ut perspiciatis unde omnis</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Accusantium doloremque lauda</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Vel illum qui dolorem fugiat quo</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Quis autem vel eum repreh</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Neque porro quisquam est qui</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 single-left2-left">
+                            <ul>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">At vero eos et accusamus iusto</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Sed ut perspiciatis unde omnis</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Accusantium doloremque lauda</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Vel illum qui dolorem fugiat quo</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Quis autem vel eum repreh</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Neque porro quisquam est qui</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 single-left2-left">
+                            <ul>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">At vero eos et accusamus iusto</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Sed ut perspiciatis unde omnis</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Accusantium doloremque lauda</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Vel illum qui dolorem fugiat quo</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Quis autem vel eum repreh</a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa fa-check mr-2"></i>
+                                    <a href="single.html">Neque porro quisquam est qui</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- //left side -->
+
+            </div>
+        </div>
+    </div>
+    <!-- //single -->
+    <!-- footer top -->
+    <div class="footer-top py-5">
+        <div class="container">
+            <div class="row footer-cform pt-lg-5">
+                <div class="col-lg-5 wthree-form-left my-lg-0 mt-4">
+                    <h5 class="footer-top-title">send us a message</h5>
+                    <div class="footer-top-form">
+                        <form action="#" method="get" class="footer-top-wthree">
+                            <div class="form-group d-flex">
+                                <label>
+                                    Name
+                                </label>
+                                <input class="form-control" type="text" placeholder="Johnson" name="email" required="">
+                            </div>
+                            <div class="form-group d-flex">
+                                <label>
+                                    Email
+                                </label>
+                                <input class="form-control" type="email" placeholder="example@email.com" name="email"
+                                    required="">
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" class="btn btn-agile btn-block w-25">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="social-icons d-flex  mt-lg-5 my-5">
+                        <h2 class="mr-4">stay connected :</h2>
+                        <ul class="social-iconsv2 agileinfo">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offset-lg-1"></div>
+                <div class="col-lg-6">
+                    <h5 class="footer-top-title">site navigation</h5>
+                    <div class="footer-top-agileits">
+                        <ul class="list-agileits d-flex">
+                            <li>
+                                <a href="{%url 'index' %}" class="nav-link py-0 pl-0">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{%url 'syllabus' %}" class="nav-link py-0">
+                                    syllabus
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{%url 'assign' %}" class="nav-link py-0">
+                                    assignments
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="list-agileits d-flex">
+                         
+                            <li>
+                                <a href="{%url 'index' %}" class="nav-link py-0 pl-0">
+                                Quiz
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{%url 'contact' %}" class="nav-link py-0">
+                                    Contact 
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-cont-btm">
+                        <h5 class="footer-top-title">contact information</h5>
+                        <address class="my-4">
+                            <p>Ahmedabad</p>
+                        </address>
+                        <ul class="d-flex header-agile pt-0 flex-column">
+                            <li>
+                                <span class="fa fa-envelope-open mr-3"></span>
+                                <a href="mailto:example@email.com">info@wtw.com</a>
+                            </li>
+                            <li class="mt-3">
+                                <span class="fa fa-phone mr-3"></span>
+                                <p class="d-inline">+918734949743</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //footer top -->
+    <!-- footer -->
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
+    <!-- //footer -->
+    <!-- js -->
+    <script src="{% static 'myapp/js/jquery-2.2.3.min.js' %}"></script>
+    <!-- //js -->
+    <!--  menu toggle -->
+    <script src="{% static 'myapp/js/menu.js' %}"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="{% static 'myapp/js/scrolling-nav.js' %}"></script>
+    <!-- start-smooth-scrolling -->
+    <script src="{% static 'myapp/js/move-top.js' %}"></script>
+    <script src="{% static 'myapp/js/easing.js' %}"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="{% static 'myapp/js/SmoothScroll.min.js' %}"></script>
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static 'myapp/js/bootstrap.js' %}"></script>
+</body>
+
+</html>

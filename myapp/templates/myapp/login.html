@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            login
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        {%  load static %}
+        <link rel="stylesheet" href="{% static 'myapp/style.css' %}" type="text/css">
+        <body>         
+         <center>   <h1>    welcome </h1>
+            <button class="btn btn-danger outline" type="button" name="button">log in</button>
+        </center>
+        <div class="jumbotron" style="margin-top: 10px">
+            <h1>
+                welcome
+            </h1>
+        </div>
+        <h1>{{ myname }}
+            <ul>{% for number in numbers %}
+                <li>
+                        {{ number }}
+
+                </li>
+                {% endfor %}
+            </ul>
+        </h1>
+        </body>
+    </head>
+</html>
